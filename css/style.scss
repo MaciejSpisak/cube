@@ -42,6 +42,21 @@
     align-items: center;
 }
 
+.header-main > div > a{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: lightseagreen;
+    width: 30%;
+    text-decoration: none;
+    background-color: white;
+    padding: 50px;
+    text-transform: uppercase;
+    
+    
+}
+
 .header-main > div > h2{
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
@@ -62,11 +77,55 @@
 
 .logo{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:lightgray;
     padding: 30px;
 }
+.logo > img{
+    padding: 20px;
+}
 
+.life{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.life > div > div{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+.life > div > p{
+font-family: 'Raleway', sans-serif;
+font-weight: 300;
+font-size: 24px;
+color: black;
+text-align: center;
+padding: 10px;
+
+}
+.life > div > a{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: green;
+    width: 30%;
+    text-decoration: none;
+    background-color: greenyellow;
+    padding: 50px;
+    text-transform: uppercase;
+    justify-content: center;
+    flex-direction: row; 
+    text-align: center;
+    margin: auto;
+}
 @media (min-width: 576px) {
     .container {
         width: 540px;
